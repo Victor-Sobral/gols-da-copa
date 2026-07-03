@@ -1,69 +1,94 @@
-# gol_da_copa
+# ⚽ Gols da Copa 2026
 
-This template should help get you started developing with Vue 3 in Vite.
+Site desenvolvido para exibir os melhores gols da Copa do Mundo 2026, organizados por fase do torneio.
 
-## Recommended IDE Setup
+## 🌐 Sobre o Projeto
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+O **Gols da Copa** nasceu da ideia de reunir em um só lugar os gols mais marcantes da Copa do Mundo 2026, permitindo que o usuário navegue facilmente entre as fases do torneio e assista aos melhores momentos diretamente pelo YouTube.
 
-## Recommended Browser Setup
+## 🚀 Funcionalidades
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Exibição de vídeos do YouTube organizados por fase
+- Navegação entre fases: Grupos, 16 avos, Oitavas, Quartas, Semifinal e Final
+- Busca por seleção em tempo real
+- Layout responsivo com menu lateral
+- Espaços reservados para anúncios
 
-## Customize configuration
+## 🛠️ Tecnologias Utilizadas
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Frontend
 
-## Project Setup
+- **Vue 3** — framework principal com Composition API e `<script setup>`
+- **Vuetify 3** — biblioteca de componentes UI
+- **Vue Router** — navegação entre páginas
 
-```sh
+### Backend / Automação
+
+- **Python** — script de automação para busca de vídeos
+- **yt-dlp** — biblioteca para busca de vídeos no YouTube
+- **JSON** — armazenamento dos dados dos vídeos
+
+### Deploy
+
+- **GitHub** — versionamento do código
+- **Netlify** — hospedagem do site
+
+## 📁 Estrutura do Projeto
+
+gols-da-copa/
+├── public/
+│ ├── bola.gif # Animação da bola no navbar
+│ └── favicon.png # Ícone da aba
+├── src/
+│ ├── components/
+│ │ ├── LayoutDefault.vue # Layout principal com navbar e menu
+│ │ └── CardLayout.vue # Card de exibição de cada vídeo
+│ ├── pages/
+│ │ ├── HomePage.vue
+│ │ ├── SixteenFinal.vue
+│ │ ├── EightFinal.vue
+│ │ ├── FourFinal.vue
+│ │ ├── SemiFinal.vue
+│ │ └── Final.vue
+│ ├── data/
+│ │ ├── videos.json # Vídeos da fase de grupos
+│ │ ├── videosSixteen.json # Vídeos dos 16 avos
+│ │ ├── videosEightFinal.json # Vídeos das oitavas
+│ │ ├── videosFourFinal.json # Vídeos das quartas
+│ │ ├── videosSemiFinal.json # Vídeos da semifinal
+│ │ └── videosFinal.json # Vídeos da final
+│ └── router/
+│ └── index.js # Configuração das rotas
+├── scripts/
+│ └── buscar_videos.py # Script Python de automação
+└── index.html # Metadados e SEO
+
+## 🤖 Script de Automação
+
+O script `buscar_videos.py` busca automaticamente vídeos no YouTube usando hashtags relacionadas à Copa do Mundo e salva os resultados em `videos.json`. Ele foi desenvolvido com as seguintes funcionalidades:
+
+- Busca por hashtags configuráveis
+- Evita duplicatas verificando o `videoId` antes de salvar
+- Preserva os vídeos já existentes no JSON, adicionando apenas os novos
+- Contador de IDs incremental para novos vídeos
+
+## ▶️ Como Rodar o Projeto
+
+### Site
+
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Script de busca de vídeos
 
-```sh
-npm run build
+```bash
+pip install yt-dlp
+python scripts/buscar_videos.py
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+## 👨‍💻 Author
 
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
-
-```sh
-# Install browsers for the first run
-npx playwright install
-
-# When testing on CI, must build the project first
-npm run build
-
-# Runs the end-to-end tests
-npm run test:e2e
-# Runs the tests only on Chromium
-npm run test:e2e -- --project=chromium
-# Runs the tests of a specific file
-npm run test:e2e -- tests/example.spec.ts
-# Runs the tests in debug mode
-npm run test:e2e -- --debug
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+https://github.com/Victor-Sobral
+https://www.linkedin.com/in/victor-sobral-871b76199/
