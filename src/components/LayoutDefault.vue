@@ -22,6 +22,9 @@ const videosBuscados = computed(() => {
     video.titulo.toLowerCase().includes(buscarSelecao.value.toLowerCase()),
   )
 })
+
+//Controle se o drawer esta aberto ou fehado
+const drawer = ref(true)
 </script>
 
 <template>
@@ -36,6 +39,12 @@ const videosBuscados = computed(() => {
   >
     <v-layout class="rounded rounded-md border" full-width style="height: 100vh">
       <v-app-bar style="background-color: #000000">
+        <!-- Botão amburger visível só no mobile -->
+        <v-app-bar-nav-icon
+          style="color: #ffd700; z-index: 999; position: relative"
+          @click.stop="drawer = !drawer"
+        >
+        </v-app-bar-nav-icon>
         <div
           style="
             position: absolute;
@@ -55,7 +64,7 @@ const videosBuscados = computed(() => {
           </span>
         </div>
       </v-app-bar>
-      <v-navigation-drawer style="background-color: #000000">
+      <v-navigation-drawer v-model="drawer" style="background-color: #000000">
         <v-divider style="border-color: #ffd700; margin-bottom: 8px"></v-divider>
         <v-list>
           <v-list-item
@@ -105,14 +114,14 @@ const videosBuscados = computed(() => {
       <v-main>
         <div class="w-100 mx-auto" style="max-width: 1000px; padding: 20px; text-align: justify">
           <p>
-            NOTAS DO DEV: O intuíto do projeto seria catalogar os gols das partidas da copa do mundo
-            FIFA 2026, porém o objetivo foi apenas parcialmente concluído devido a direitos de
-            transmissão não previstos na concepção da idéia. Optei por dar continuidade somente com
-            os vídeos disponíviel, sem a proteção de autoria do material, com o intenção de concluir
-            o projeto mesmo que parcialmente e também deixar público minhas capacidades como
-            desenvolvedor. Espero que quem por aqui passar, goste de alguma forma do trabalho
-            desenvolvido. Obrigado!
+            NOTAS DO DEV: O objetivo inicial do projeto era catalogar os gols da Copa do Mundo FIFA
+            2026. No entanto, devido a restrições de direitos de transmissão não previstas no
+            planejamento, a meta foi concluída apenas parcialmente. Ainda assim, optei por seguir em
+            frente utilizando os vídeos disponíveis e livres de direitos autorais, com o intuito de
+            finalizar o projeto e demonstrar minhas capacidades como desenvolvedor. Espero que quem
+            passar por aqui aproveite o trabalho desenvolvido. Obrigado!
           </p>
+          <p>Fique ligado, o site vai ser atualizado diarimente com os jogos do dia.</p>
         </div>
         <div class="w-100 mx-auto" style="max-width: 1000px; padding: 20px">
           <v-text-field
