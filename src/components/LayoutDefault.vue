@@ -142,6 +142,13 @@ const drawer = ref(true)
             />
             <div class="ad-area">
               <!-- espaço para ad -->
+              <a href="https://link.amazon/B0i9FOU6v" target="_blank">
+                <img
+                  src="/anuncio-1.png"
+                  alt="Anúncio Amazon"
+                  style="width: 100%; height: 90px; object-fit: contain"
+                />
+              </a>
             </div>
           </div>
         </div>
