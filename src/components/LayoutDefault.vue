@@ -25,6 +25,11 @@ const videosBuscados = computed(() => {
 
 //Controle se o drawer esta aberto ou fehado
 const drawer = ref(true)
+
+const anuncios = [
+  { imagem: '/anuncio-1.png', link: 'https://link.amazon/B0i9FOU6v' },
+  { imagem: '/anuncio-2.jpeg', link: 'https://link.amazon/B02wzcIiN' },
+]
 </script>
 
 <template>
@@ -134,19 +139,23 @@ const drawer = ref(true)
             class="mb-6"
           />
           <!-- v-for percorre os vídeos filtrados e exibe cada um em um CardLayout -->
-          <div v-for="video in videosBuscados" :key="video.id">
+          <div v-for="(video, index) in videosBuscados" :key="video.id">
             <CardLayout
               :titulo="video.titulo"
               :subtitulo="video.subtitulo"
               :videoId="video.videoId"
             />
+            <!-- espaço para ad / Rotação circular: garante que volta ao primeiro anuncio depois do último -->
             <div class="ad-area">
-              <!-- espaço para ad -->
-              <a href="https://link.amazon/B0i9FOU6v" target="_blank">
+              <a
+                :href="anuncios[index % 2].link"
+                target="blank"
+                style="width: 100%; height: 100%; display: block"
+              >
                 <img
-                  src="/anuncio-1.png"
+                  :src="anuncios[index % 2].imagem"
                   alt="Anúncio Amazon"
-                  style="width: 100%; height: 90px; object-fit: contain"
+                  style="width: 100%; height: 90px; object-fit: contain; display: block"
                 />
               </a>
             </div>
