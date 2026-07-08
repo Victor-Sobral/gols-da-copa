@@ -29,6 +29,7 @@ const drawer = ref(true)
 const anuncios = [
   { imagem: '/anuncio-1.png', link: 'https://link.amazon/B0i9FOU6v' },
   { imagem: '/anuncio-2.jpeg', link: 'https://link.amazon/B02wzcIiN' },
+  { imagem: '/anuncio-3.jpeg', link: 'https://link.amazon/B09vh3y4f' },
 ]
 </script>
 
@@ -118,7 +119,7 @@ const anuncios = [
       </v-navigation-drawer>
       <v-main>
         <div class="w-100 mx-auto" style="max-width: 1000px; padding: 20px; text-align: justify">
-          <p>
+          <p class="font-weight-semibold">
             NOTAS DO DEV: O objetivo inicial do projeto era catalogar os gols da Copa do Mundo FIFA
             2026. No entanto, devido a restrições de direitos de transmissão não previstas no
             planejamento, a meta foi concluída apenas parcialmente. Ainda assim, optei por seguir em
@@ -126,7 +127,9 @@ const anuncios = [
             finalizar o projeto e demonstrar minhas capacidades como desenvolvedor. Espero que quem
             passar por aqui aproveite o trabalho desenvolvido. Obrigado!
           </p>
-          <p>Fique ligado, o site vai ser atualizado diarimente com os jogos do dia.</p>
+          <p class="font-weight-black">Atualizações:</p>
+          <p>07/07/2026 - Disponível jogos das oitavas de final EGITO X ARGENTINA e SUICA X COLOMBIA.</p>
+          <p>07/07/2026 - REVISÃO - Jogos do dia 15/06 - organizados na fase de grupos.</p>
         </div>
         <div class="w-100 mx-auto" style="max-width: 1000px; padding: 20px">
           <v-text-field
