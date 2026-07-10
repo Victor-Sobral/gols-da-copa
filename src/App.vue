@@ -1,16 +1,9 @@
 <script setup>
-//import { RouterLink, RouterView } from 'vue-router
+import CookieBanner from './components/CookieBanner.vue'
 </script>
 
 <template>
-  <header>
-    <div>
-      <!-- <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav> -->
-    </div>
-  </header>
   <HomePage> </HomePage>
   <RouterView />
+  <CookieBanner />
 </template>

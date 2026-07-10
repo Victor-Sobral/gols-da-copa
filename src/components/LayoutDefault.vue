@@ -127,9 +127,9 @@ const anuncios = [
             finalizar o projeto e demonstrar minhas capacidades como desenvolvedor. Espero que quem
             passar por aqui aproveite o trabalho desenvolvido. Obrigado!
           </p>
-          <p class="font-weight-black">Atualizações:</p>
-          <p>07/07/2026 - Disponível jogos das oitavas de final EGITO X ARGENTINA e SUICA X COLOMBIA.</p>
-          <p>07/07/2026 - REVISÃO - Jogos do dia 15/06 - organizados na fase de grupos.</p>
+          <p class="font-weight-white">Atualizações:</p>
+          <p>10/07/2026 - Disponível primeiro jogo das quartas de final FRANÇA 2 X 0 MARROCOS.</p>
+          <p>07/07/2026 - REVISADOS - Jogos até o dia 19/06.</p>
         </div>
         <div class="w-100 mx-auto" style="max-width: 1000px; padding: 20px">
           <v-text-field
@@ -151,12 +151,12 @@ const anuncios = [
             <!-- espaço para ad / Rotação circular: garante que volta ao primeiro anuncio depois do último -->
             <div class="ad-area">
               <a
-                :href="anuncios[index % 2].link"
+                :href="anuncios[index % 3].link"
                 target="blank"
                 style="width: 100%; height: 100%; display: block"
               >
                 <img
-                  :src="anuncios[index % 2].imagem"
+                  :src="anuncios[index % 3].imagem"
                   alt="Anúncio Amazon"
                   style="width: 100%; height: 90px; object-fit: contain; display: block"
                 />
