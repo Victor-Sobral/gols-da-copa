@@ -121,15 +121,15 @@ const anuncios = [
         <div class="w-100 mx-auto" style="max-width: 1000px; padding: 20px; text-align: justify">
           <p class="font-weight-semibold">
             NOTAS DO DEV: O objetivo inicial do projeto era catalogar os gols da Copa do Mundo FIFA
-            2026. No entanto, devido a restrições de direitos de transmissão não previstas no
-            planejamento, a meta foi concluída apenas parcialmente. Ainda assim, optei por seguir em
-            frente utilizando os vídeos disponíveis e livres de direitos autorais, com o intuito de
-            finalizar o projeto e demonstrar minhas capacidades como desenvolvedor. Espero que quem
-            passar por aqui aproveite o trabalho desenvolvido. Obrigado!
+            2026. Não foi possível adicionar todos os jogos, devido a restrições de direitos de
+            transmissão, a meta foi concluída apenas parcialmente. Espero que quem passar por aqui
+            aproveite o trabalho desenvolvido. Obrigado! Site construído com Vuetify, Java, Python.
           </p>
           <p class="font-weight-white">Atualizações:</p>
-          <p>10/07/2026 - Disponível primeiro jogo das quartas de final FRANÇA 2 X 0 MARROCOS.</p>
-          <p>07/07/2026 - REVISADOS - Jogos até o dia 19/06.</p>
+          <p>
+            13/07/2026 - Disponível terceiro jogo das quartas de final INGALTERRA 2 X 1 NOROEGA.
+          </p>
+          <p>13/07/2026 - Fase de grupos revisada e completa com os jogos disponíveis.</p>
         </div>
         <div class="w-100 mx-auto" style="max-width: 1000px; padding: 20px">
           <v-text-field
