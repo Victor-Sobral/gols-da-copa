@@ -20,14 +20,16 @@
   {
     "id": 4,
     "titulo": "MÉXICO 2 X 0 AFRICA DO SUL | RODADA 1 | FASE DE GRUPO",
-    "subtitulo": "#fasedegrupo #copadomundo - VIDEO PÚBLICO INDISPONÍVEL",
-    "videoId": ""
+    "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 5,
     "titulo": "COREIA DO SUL 2 X 1 REPÚBLICA TCHECA | RODADA 1 | FASE DE GRUPO",
-    "subtitulo": "#fasedegrupo #copadomundo - VIDEO PÚBLICO INDISPONÍVEL",
-    "videoId": ""
+    "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 6,
@@ -51,7 +53,8 @@
     "id": 9,
     "titulo": "HAITI 0 X 1 ESCÓCIA | RODADA 1 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 10,
@@ -63,7 +66,8 @@
     "id": 11,
     "titulo": "ALEMANHA 7 X 1 CURAÇAO | RODADA 1 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 12,
@@ -75,7 +79,8 @@
     "id": 13,
     "titulo": "COSTA DO MARFIM 1 X 0 EQUADOR | RODADA 1 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 14,
@@ -147,7 +152,8 @@
     "id": 25,
     "titulo": "GANA 1 X 0 PANAMÁ | RODADA 1 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 26,
@@ -159,7 +165,8 @@
     "id": 27,
     "titulo": "REPÚBLICA TCHECA 1 X 1 AFRICA DO SUL | RODADA 2 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 28,
@@ -273,7 +280,8 @@
     "id": 46,
     "titulo": "JORDÂNIA 1 X 2 ARGÉLIA | RODADA 2 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 47,
@@ -291,7 +299,8 @@
     "id": 49,
     "titulo": "PANAMÁ 0 X 1 CROÁCIA | RODADA 2 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 50,
@@ -303,25 +312,29 @@
     "id": 51,
     "titulo": "SUIÇA 2 X 1 CANADÁ | RODADA 2 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 52,
     "titulo": "BÓSNIA E. 3 X 1 CATAR | RODADA 3 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 53,
     "titulo": "MARROCOS 4 X 2 HAITI | RODADA 3 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 54,
     "titulo": "ÁFRICA DO SUL 1 X 0 COREIA DO SUL | RODADA 3 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 55,
@@ -345,7 +358,8 @@
     "id": 58,
     "titulo": "TUNÍSIA 1 X 3 HOLANDA | RODADA 3 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 59,
@@ -363,7 +377,8 @@
     "id": 61,
     "titulo": "PARAGUAI 0 X 0 AUSTRÁLIA | RODADA 3 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 62,
@@ -375,7 +390,8 @@
     "id": 63,
     "titulo": "Senegal 5 x 0 Iraque | RODADA 3 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 64,
@@ -393,7 +409,8 @@
     "id": 66,
     "titulo": "NOVA ZELÂNDIA 1 X 5 BÉLGICA | RODADA 3 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 67,
@@ -411,30 +428,35 @@
     "id": 69,
     "titulo": "CROÁCIA 2 X 1 GANA | RODADA 3 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 67,
     "titulo": "COLÔMBIA 0 X 0 PORTUGAL | RODADA 3 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 68,
     "titulo": "RD CONGO 3 X 1 UZBEQUISTÃO | RODADA 3 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 67,
     "titulo": "ARGÉLIA 3 X 3 ÁUSTRIA | RODADA 3 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   },
   {
     "id": 68,
     "titulo": "JORDÂNIA 1 X 3 ARGENTINA | RODADA 3 | FASE DE GRUPO",
     "subtitulo": "VIDEO PÚBLICO INDISPONÍVEL - #fasedegrupo #copadomundo",
-    "videoId": ""
+    "videoId": "",
+    "bloqueado": true
   }
 ]

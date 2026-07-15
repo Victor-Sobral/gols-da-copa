@@ -147,6 +147,7 @@ const anuncios = [
               :titulo="video.titulo"
               :subtitulo="video.subtitulo"
               :videoId="video.videoId"
+              :bloqueado="video.bloqueado"
             />
             <!-- espaço para ad / Rotação circular: garante que volta ao primeiro anuncio depois do último -->
             <div class="ad-area">

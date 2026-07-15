@@ -3,6 +3,7 @@ defineProps({
   titulo: String,
   subtitulo: String,
   videoId: String,
+  bloqueado: Boolean,
 })
 </script>
 
@@ -23,22 +24,32 @@ defineProps({
             <v-col cols="12">
               <v-card color="#1F7087">
                 <div class="d-flex flex-no-wrap justify-space-between">
-                  <iframe
-                    width="100%"
-                    height="400"
-                    :src="`https://www.youtube.com/embed/${videoId}`"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="
-                      accelerometer;
-                      autoplay;
-                      clipboard-write;
-                      encrypted-media;
-                      gyroscope;
-                      picture-in-picture;
-                    "
-                    allowfullscreen
-                  ></iframe>
+                  <!-- se video esta com bloqueado: true mostra imagem -->
+                  <template v-if="bloqueado">
+                    <img
+                      src="/video-bloqueado.png"
+                      alt="Vídel indisponível"
+                      style="width: 100%; height: 400px; object-fit: cover"
+                    />
+                  </template>
+                  <template v-else>
+                    <iframe
+                      width="100%"
+                      height="400"
+                      :src="`https://www.youtube.com/embed/${videoId}`"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="
+                        accelerometer;
+                        autoplay;
+                        clipboard-write;
+                        encrypted-media;
+                        gyroscope;
+                        picture-in-picture;
+                      "
+                      allowfullscreen
+                    ></iframe>
+                  </template>
                 </div>
               </v-card>
             </v-col>
