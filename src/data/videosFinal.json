@@ -1,8 +1,14 @@
 [
   {
     "id": 1,
-    "titulo": " | FIFA WORLD CUP 2026",
-    "subtitulo": "#copadomundo",
+    "titulo": "Grande FINAL - ESPANHA x ARGENTINA | FIFA WORLD CUP 2026",
+    "subtitulo": "Final #eliminatória #copadomundo",
+    "videoId": ""
+  },
+  {
+    "id": 2,
+    "titulo": "TERCEIRO LUGAR - FRANÇA x INGLATERRA | FIFA WORLD CUP 2026",
+    "subtitulo": "Disputa do terceiro lugar #eliminatória #copadomundo",
     "videoId": ""
   }
 ]
